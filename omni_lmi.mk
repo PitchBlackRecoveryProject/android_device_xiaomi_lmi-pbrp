@@ -16,6 +16,7 @@
 
 # Release name
 PRODUCT_RELEASE_NAME := lmi
+PRODUCT_USE_DYNAMIC_PARTITIONS := true
 DEVICE_PATH := device/xiaomi/lmi
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
